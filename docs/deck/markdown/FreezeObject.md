@@ -112,11 +112,53 @@ This document is entirely auto-generated and may contain errors.<br>
 | Running      | Running      |
 | TimedOut     | TimedOut     |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
+
+| constant                                            | value                                               |
+|:----------------------------------------------------|:----------------------------------------------------|
+| JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
+| JanusPollerResponseEnumMediaVideo                   | JanusPollerResponseEnumMediaVideo                   |
+| JanusPollerResponseEnumMediaAudio                   | JanusPollerResponseEnumMediaAudio                   |
+| JanusPollerResponseEnumJanusSlowLink                | JanusPollerResponseEnumJanusSlowLink                |
+| JanusPollerResponseEnumKeepAlive                    | JanusPollerResponseEnumKeepAlive                    |
+| JanusPollerResponseEnumHangup                       | JanusPollerResponseEnumHangup                       |
+| JanusPollerResponseEnumDetached                     | JanusPollerResponseEnumDetached                     |
+| JanusPollerResponseEnumVideoRoomDestroyed           | JanusPollerResponseEnumVideoRoomDestroyed           |
+| JanusPollerResponseEnumEventPublishersList          | JanusPollerResponseEnumEventPublishersList          |
+| JanusPollerResponseEnumUpdated                      | JanusPollerResponseEnumUpdated                      |
+| JanusPollerResponseEnumEventUnpublished             | JanusPollerResponseEnumEventUnpublished             |
+| JanusPollerResponseEnumEventLoggedInUserUnpublished | JanusPollerResponseEnumEventLoggedInUserUnpublished |
+| JanusPollerResponseEnumEventKicked                  | JanusPollerResponseEnumEventKicked                  |
+| JanusPollerResponseEnumEventLoggedInUserLeaving     | JanusPollerResponseEnumEventLoggedInUserLeaving     |
+| JanusPollerResponseEnumEventLeaving                 | JanusPollerResponseEnumEventLeaving                 |
+| JanusPollerResponseEnumVideoRoomSlowLink            | JanusPollerResponseEnumVideoRoomSlowLink            |
+| JanusPollerResponseEnumEventJoined                  | JanusPollerResponseEnumEventJoined                  |
+| JanusPollerResponseEnumEventConfigured              | JanusPollerResponseEnumEventConfigured              |
+| JanusPollerResponseEnumEventListenerAttached        | JanusPollerResponseEnumEventListenerAttached        |
+| JanusPollerResponseEnumEventStarted                 | JanusPollerResponseEnumEventStarted                 |
+| JanusPollerResponseEnumEventLeft                    | JanusPollerResponseEnumEventLeft                    |
+| JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
+| JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
+| JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -129,6 +171,34 @@ This document is entirely auto-generated and may contain errors.<br>
 | All         |       0 |
 | Employees   |       1 |
 | Subscribers |       2 |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
+| constant                | value   |
+|:------------------------|:--------|
+| ActionsBar              | C.Z     |
+| ActionMenu              | w.Z     |
+| CallToAction            | a.ZP    |
+| EditCallout             | g.Z     |
+| Education               | E.Z     |
+| HighlightedUserLabel    | c.Z     |
+| Media                   | x.Z     |
+| Place                   | r.ZP    |
+| PromotedDetails         | u.Z     |
+| PromotedUserProfileCard | _.Z     |
+| ReplyContext            | k.ZP    |
+| RichContent             | I.Z     |
+| SocialContext           | f.Z     |
+| Text                    | T.Z     |
+| Tombstone               | h.Z     |
+| Timestamp               | b.Z     |
+| UserAvatar              | A.Z     |
+| UserFollowIndicator     | L.Z     |
+| UserName                | Z.Z     |
+| ArticleCard             | v.Z     |
 
 | constant     | value             |
 |:-------------|:------------------|
@@ -191,11 +261,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserFollowIndicator     | S.Z     |
 | UserName                | P.Z     |
 | ArticleCard             | b.Z     |
-
-| constant    | value       |
-|:------------|:------------|
-| passive     | PASSIVE     |
-| interactive | INTERACTIVE |
 
 | constant                | value                   |
 |:------------------------|:------------------------|
@@ -550,6 +615,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | Online      | Online      |
 | Swipe       | Swipe       |
 
+| constant             | value                |
+|:---------------------|:---------------------|
+| Ach                  | Ach                  |
+| Aft                  | Aft                  |
+| Oct                  | Oct                  |
+| ProviderBankTransfer | ProviderBankTransfer |
+| Wire                 | Wire                 |
+
 | constant       | value          |
 |:---------------|:---------------|
 | Clock          | Clock          |
@@ -636,11 +709,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[v.S.Alert]:"danger",[v.S.Info]:"primary",[v.S.Warning]:"warning"}
+{[b.S.Alert]:"danger",[b.S.Info]:"primary",[b.S.Warning]:"warning"}
 ```
 ```internal process
 # Error
-{[v.S.Alert]:"u.default",[v.S.Info]:"p.default",[v.S.Warning]:"u.default"}
+{[b.S.Alert]:"u.default",[b.S.Info]:"p.default",[b.S.Warning]:"u.default"}
 ```
 ```internal process
 # Error
@@ -656,39 +729,43 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.g.PendingRecipientAcceptance]:"B",[T.g.PendingRecipientOnboarding]:"B",[T.g.PendingRecipientAction]:"B"}
+{[T.g.PendingRecipientAcceptance]:"F",[T.g.PendingRecipientOnboarding]:"F",[T.g.PendingRecipientAction]:"F"}
 ```
 ```internal process
 # Error
-{[T.g.AwaitingRequestAcceptance]:"B",[T.g.PendingRequestAcceptance]:"B",[T.g.RequestVerificationRequired]:"B"}
+{[T.g.AwaitingRequestAcceptance]:"F",[T.g.PendingRequestAcceptance]:"F",[T.g.RequestVerificationRequired]:"F"}
 ```
 ```internal process
 # Error
-{[f.t.Checking]:"Checking",[f.t.Savings]:"Savings"}
+{[g.t.Checking]:"Checking",[g.t.Savings]:"Savings"}
 ```
 ```internal process
 # Error
-{[C.W.IssuedCardTypePhysical]:"Physical Card",[C.W.IssuedCardTypeVirtual]:"Virtual Card"}
+{[w.W.IssuedCardTypePhysical]:"Physical Card",[w.W.IssuedCardTypeVirtual]:"Virtual Card"}
 ```
 ```internal process
 # Error
-{[y.l.Charge]:"Charge",[y.l.Combo]:"Combo",[y.l.Debit]:"Debit",[y.l.Credit]:"Credit",[y.l.DeferredDebit]:"DeferredDebit",[y.l.Prepaid]:"Prepaid"}
+{[m.l.Charge]:"Charge",[m.l.Combo]:"Combo",[m.l.Debit]:"Debit",[m.l.Credit]:"Credit",[m.l.DeferredDebit]:"DeferredDebit",[m.l.Prepaid]:"Prepaid"}
 ```
 ```internal process
 # Error
-{[m.U.AmericanExpress]:"American Express",[m.U.Mastercard]:"Mastercard",[m.U.Visa]:"Visa"}
+{[f.U.AmericanExpress]:"American Express",[f.U.Mastercard]:"Mastercard",[f.U.Visa]:"Visa"}
 ```
 ```internal process
 # Error
-{[x.D.LoginRequired]:"Login required",[x.D.Invalid]:"Invalid",[x.D.Pending]:"Pending",[x.D.Revoked]:"Revoked",[x.D.Canceled]:"Canceled",[x.D.Inactive]:"Inactive"}
+{[b.D.LoginRequired]:"Login required",[b.D.Invalid]:"Invalid",[b.D.Pending]:"Pending",[b.D.Revoked]:"Revoked",[b.D.Canceled]:"Canceled",[b.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
-{[P.y.Online]:"Online",[P.y.Chip]:"Chip",[P.y.Contactless]:"Contactless",[P.y.KeyedIn]:"Keyed In",[P.y.Swipe]:"Swipe"}
+{[R.y.Online]:"Online",[R.y.Chip]:"Chip",[R.y.Contactless]:"Contactless",[R.y.KeyedIn]:"Keyed In",[R.y.Swipe]:"Swipe"}
 ```
 ```internal process
 # Error
-{[m.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[m.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[m.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
+{[P.B.Ach]:"Bank Transfer ()",[P.B.Aft]:"Funds Transfer (ACH)",[P.B.Oct]:"Instant Payment (AFT)",[P.B.Wire]:"Wire Transfer",[P.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
+```
+```internal process
+# Error
+{[f.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[f.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[f.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
 ```
 | constant                     | value                        |
 |:-----------------------------|:-----------------------------|
@@ -719,39 +796,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
-
-| constant   | value   |
-|:-----------|:--------|
-| IOS        | ios     |
-| ANDROID    | android |
-
-| constant          |   value |
-|:------------------|--------:|
-| APPLE_APP_STORE   |       1 |
-| GOOGLE_PLAY_STORE |       2 |
-
-| constant                | value   |
-|:------------------------|:--------|
-| ActionsBar              | f.Z     |
-| ActionMenu              | T.Z     |
-| CallToAction            | o.ZP    |
-| EditCallout             | y.Z     |
-| Education               | _.Z     |
-| HighlightedUserLabel    | l.Z     |
-| Media                   | v.Z     |
-| Place                   | a.ZP    |
-| PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | x.Z     |
-| ReplyContext            | I.ZP    |
-| RichContent             | k.Z     |
-| SocialContext           | h.Z     |
-| Text                    | E.Z     |
-| Tombstone               | g.Z     |
-| Timestamp               | p.Z     |
-| UserAvatar              | M.Z     |
-| UserFollowIndicator     | S.Z     |
-| UserName                | P.Z     |
-| ArticleCard             | b.Z     |
 
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
@@ -850,6 +894,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[n.wide]:"500",[n.narrow]:"300",[n.veryNarrow]:"200"}
+```
 ```internal process
 # Error
 {"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
