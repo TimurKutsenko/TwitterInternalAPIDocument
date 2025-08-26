@@ -2035,6 +2035,9 @@
       "responsive_web_grok_tweet_translation_limit": {
         "value": "5000"
       },
+      "responsive_web_grok_use_imagine_in_image_gen": {
+        "value": "false"
+      },
       "responsive_web_grok_use_new_layout": {
         "value": "true"
       },
@@ -5861,6 +5864,9 @@
         "responsive_web_grok_tweet_translation_limit": {
           "value": "5000"
         },
+        "responsive_web_grok_use_imagine_in_image_gen": {
+          "value": "false"
+        },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
         },
@@ -7679,7 +7685,7 @@
           "value": "false"
         },
         "xchat_enable_show_more_button": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enabled_inbox_pill_counts": {
           "value": "false"
@@ -7757,10 +7763,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
+      "settingsVersion": "11a9085528bf528b2ef94e003bf21d25"
     },
     "debug": {},
-    "featureSetToken": "961f09de6e8ce4998514a66f0fc25eb2aa011d4d",
+    "featureSetToken": "fad34cb33657e7f4e0e2eb50a661a80a0576dc05",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7829,7 +7835,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175615571310036342",
+    "guestId": "175624210807117173",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
