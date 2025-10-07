@@ -4085,12 +4085,6 @@
       "method": "GET",
       "features": {}
     },
-    "articleNudgeDomains": {
-      "url": "https://x.com/i/api/graphql/88Bu08U2ddaVVjKmmXjVYg/articleNudgeDomains",
-      "queryId": "88Bu08U2ddaVVjKmmXjVYg",
-      "method": "GET",
-      "features": {}
-    },
     "BirdwatchAdmitUser": {
       "url": "https://x.com/i/api/graphql/s_L4H2iPhZoMtWiqHxd9LA/BirdwatchAdmitUser",
       "queryId": "s_L4H2iPhZoMtWiqHxd9LA",
