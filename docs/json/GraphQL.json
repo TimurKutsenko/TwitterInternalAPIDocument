@@ -14660,19 +14660,6 @@
     }
   },
   {
-    "n": "39343",
-    "exports": {
-      "queryId": "88Bu08U2ddaVVjKmmXjVYg",
-      "operationName": "articleNudgeDomains",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "82365",
     "exports": {
       "queryId": "s_L4H2iPhZoMtWiqHxd9LA",
