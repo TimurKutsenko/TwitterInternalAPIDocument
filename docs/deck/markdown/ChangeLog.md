@@ -6434,3 +6434,18 @@
 - xchat_inbox_conversation_hydrate_users<br>
 - xchat_inbox_conversation_rotate_keys<br>
 - xchat_share_post<br>
+## 2025/11/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_gifting_tooltip_enabled<br>
+- syscache_business_cancel_flow_warning_enabed<br>
+- syscache_premium_cancel_flow_warning_enabed<br>
+- x_jetfuel_use_new_api_url<br>
+- xchat_strip_media_metadata<br>
+#### remove<br>
+- None<br>
