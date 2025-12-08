@@ -1438,6 +1438,9 @@
       "responsive_web_card_preconnect_enabled": {
         "value": "false"
       },
+      "responsive_web_card_reminder_enabled": {
+        "value": "false"
+      },
       "responsive_web_carousel_v2_cards_non_safari_enabled": {
         "value": "false"
       },
@@ -1634,6 +1637,9 @@
         "value": "false"
       },
       "responsive_web_grok_dev_universal_search_id_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_disable_new_conversation_url_reset": {
         "value": "false"
       },
       "responsive_web_grok_download_favicons": {
@@ -3772,7 +3778,7 @@
         "value": "500"
       },
       "xchat_web_react_blob_url_management": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -7505,10 +7511,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "73b0261362c88bd945ef83dbcfe6d632"
+      "settingsVersion": "624bd930d2783ba0d7b3d25316b00b03"
     },
     "debug": {},
-    "featureSetToken": "9036130c33b45c9bc5ffe61b574fb6558388642e",
+    "featureSetToken": "d2472bfff2ea786c3696a36d560a3af059e46aa0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7577,7 +7583,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176505500818461594",
+    "guestId": "176522790750674688",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
