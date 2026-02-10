@@ -1,7 +1,7 @@
 {
   "env": "prod",
   "isCanary": "false",
-  "sha": "3f2ec7f74cd2c4756d72357fee7623a9abeb9335",
+  "sha": "e02688ab5e5df8b849fc453f95af0cae9a488627",
   "isLoggedIn": "false",
   "isTwoffice": "false",
   "hasMultiAccountCookie": "false",
@@ -10,7 +10,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1770672052679",
+  "serverDate": "1770758566263",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -104,5 +104,5 @@
       ]
     }
   },
-  "userHash": "88a2179d2c4ff60b4da4ae9849261b5ef40be722d00f421fed618c51c434b0fd"
+  "userHash": "a3a1bab78f709a4d5f152cdbca9c0595905748bd2311ee4e7f6cab25e7cc5d57"
 }
