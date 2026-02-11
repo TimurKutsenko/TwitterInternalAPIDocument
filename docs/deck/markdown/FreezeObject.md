@@ -25,6 +25,22 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
+
+| constant         | value                                 |
+|:-----------------|:--------------------------------------|
+| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
+| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
+| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
+| Root             | VideoPlayerDefaultUI-Root             |
+| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
+
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -317,24 +333,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                      |
-|:-----------|:-----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
@@ -459,6 +457,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
