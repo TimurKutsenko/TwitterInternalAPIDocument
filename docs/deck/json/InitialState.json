@@ -1214,6 +1214,9 @@
       "premium_webview_paywall_force_premium_tier_enabled": {
         "value": "false"
       },
+      "premium_webview_paywall_intro_offer_title_new_copy_enabled": {
+        "value": "false"
+      },
       "premium_webview_paywall_offer_variant": {
         "value": "thanksgiving2025"
       },
@@ -5150,6 +5153,9 @@
         "premium_webview_paywall_force_premium_tier_enabled": {
           "value": "false"
         },
+        "premium_webview_paywall_intro_offer_title_new_copy_enabled": {
+          "value": "false"
+        },
         "premium_webview_paywall_offer_variant": {
           "value": "thanksgiving2025"
         },
@@ -7975,7 +7981,7 @@
       "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "1dece5740dc49afbcb524fe91b4cb649d3765118",
+    "featureSetToken": "eb9025806c7c2e6b22b35cf866c3bd49d6839c91",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8045,7 +8051,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177084476582388269",
+    "guestId": "177093120339025256",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
