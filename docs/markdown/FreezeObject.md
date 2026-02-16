@@ -9990,9 +9990,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | design               | p       |
 | marketing            | m       |
 | sales_am             | h       |
-| operations           | f       |
+| operations           | b       |
 | people_hr            | g       |
-| finance_accounting   | b       |
+| finance_accounting   | f       |
 | legal_compliance     | y       |
 | science_engineering  | _       |
 | medical              | x       |
