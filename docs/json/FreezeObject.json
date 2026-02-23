@@ -3989,7 +3989,7 @@
     "recent": "recency",
     "relevant": "relevance"
   },
-  "{[f.relevant]:\"h\",[f.recent]:\"_\",[f.likes]:\"m\"}",
+  "{[w.relevant]:\"h\",[w.recent]:\"_\",[w.likes]:\"m\"}",
   {
     "Author": "author",
     "LikedByAuthor": "liked-by-author"
