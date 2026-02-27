@@ -8159,3 +8159,21 @@
 #### remove<br>
 - graphql_mutation_update_mode<br>
 - rweb_timeline_inline_show_more_enabled<br>
+## 2026/02/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- content_disclosure_ai_generated_indicator_enabled<br>
+- responsive_web_grok_voice_mode_enabled<br>
+- responsive_web_user_premium_user_gate<br>
+- xchat_drop_sigs_after_seq_num<br>
+- xchat_enable_in_memory_event_retry<br>
+- xchat_enable_share_message_v2<br>
+- xchat_fetch_read_events_in_inbox<br>
+- xchat_resolve_unencrypted_media_locally<br>
+#### remove<br>
+- xchat_enable_media_conv_info<br>
