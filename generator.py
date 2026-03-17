@@ -332,20 +332,6 @@ if ENV == "GithubAction":
                 )
         except:
             logging.warning(f"Error to {file_name}")
-
-    try:
-        repo.create_pull(
-            title="Update Document",
-            body=body.output,
-            head=branch,
-            base="master",
-        )
-    except:
-        logging.warning("A pull request already exists")
-        head = "fa0311:{0}".format(branch)
-        repo.get_pulls(state="open", head=head)[0].create_issue_comment(
-            body=body.output,
-        )
 else:
     for file_name in items.keys():
         if items.get(file_name, "") == items_backup.get(file_name, ""):

@@ -252,37 +252,19 @@
     ]
   },
   {
-    "queryId": "graphql/user_flow",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "jot/client_event",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "jot/error_log",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "jot/external_referer",
     "dispatch_key": "post",
     "dispatch": [
       "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "lists/memberships",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -747,6 +729,24 @@
     ]
   },
   {
+    "queryId": "media/metadata/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "account/personalization/twitter_interests",
     "dispatch_key": "get",
     "dispatch": [
@@ -774,25 +774,7 @@
     ]
   },
   {
-    "queryId": "media/metadata/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/subtitles/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "lists/memberships",
+    "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -801,7 +783,16 @@
     ]
   },
   {
-    "queryId": "geo/places",
+    "queryId": "live_pipeline/update_subscriptions",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "users/recommendations",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -820,15 +811,6 @@
   },
   {
     "queryId": "saved_searches/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "live_pipeline/update_subscriptions",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -891,6 +873,24 @@
     ]
   },
   {
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "put",
+    "dispatch": [
+      "put",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "contacts/addressbook",
     "dispatch_key": "get",
     "dispatch": [
@@ -922,24 +922,6 @@
     "dispatch_key": "post",
     "dispatch": [
       "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/user_twitter_data",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/user_twitter_data",
-    "dispatch_key": "put",
-    "dispatch": [
-      "put",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -987,15 +969,6 @@
       "get",
       "I",
       "https://x.com/i/api/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "users/recommendations",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
     ]
   },
   {
